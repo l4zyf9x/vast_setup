@@ -1,7 +1,7 @@
 echo "Running setup vast"
 
 mkdir -p /usr/bin/gpg-agent
-sudo apt remove gpg
+sudo apt remove gpg -y
 sudo apt-get update -y
 sudo apt-get install -y gnupg1
 
